@@ -6,8 +6,10 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'my-angular1';
+  title = 'My Angular';
+  name: string = 'Barbara Liskov';
+  iteList: string[] = ['item1', 'item2', 'item3', 'item4'];
 }
